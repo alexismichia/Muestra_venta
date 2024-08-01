@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industria de Plástico y Maquinaria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .hero {
+            background-color: #007bff;
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .products, .about, .contact {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .products img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Industria de Plástico y Maquinaria</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <div class="hero" id="inicio">
+        <div class="container">
+            <h2>Soluciones Innovadoras en Plástico y Maquinaria</h2>
+            <p>Proveemos la mejor calidad en productos plásticos y maquinaria para satisfacer las necesidades de la industria moderna.</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <section class="products" id="productos">
+            <h2>Nuestros Productos</h2>
+            <div>
+                <img src="plastic-product.jpg" alt="Producto de plástico">
+                <h3>Producto de Plástico</h3>
+                <p>Descripción del producto de plástico. Alta calidad y resistencia.</p>
+            </div>
+            <div>
+                <img src="machinery.jpg" alt="Maquinaria">
+                <h3>Maquinaria Avanzada</h3>
+                <p>Descripción de maquinaria. Innovación y eficiencia garantizadas.</p>
+            </div>
+        </section>
+
+        <section class="about" id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa dedicada a la fabricación y distribución de productos de plástico y maquinaria. Con años de experiencia en el mercado, nos esforzamos por ofrecer productos de alta calidad que cumplan con los estándares más exigentes.</p>
+        </section>
+
+        <section class="contact" id="contacto">
+            <h2>Contacto</h2>
+            <p>Para más información o consultas, por favor complete el siguiente formulario:</p>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Industria de Plástico y Maquinaria. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
